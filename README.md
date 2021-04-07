@@ -9,7 +9,7 @@ https://validator.w3.org/
 On the first pass through the validator this message was returned:
 "Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles."
 
-I was using an article tag for each image conatining card; each article should be identified with a heading as a child of the article element.  I changed the article tag to a div tag to avoid this message.
+I was using an article tag for each image containing card; each article should be identified with a heading as a child of the article element.  I changed the article tag to a div tag to avoid this message.
 
 On the second pass through the validator this message was returned:
 "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections."
@@ -29,15 +29,10 @@ Run # |First Contentful Paint | Speed Index | Largest Contentful Paint | Time to
 2 | 0.2 s | 0.2 s | 0.8 s | 0.3 s
 % improvement | 75% | 75% | 0 | 66%
 
-The opportunities identified after the firts run were to properly size images, serve images in next-gen formats, and efficiently encode images.  Prior to run 2 all images were properly sized.
+The opportunities identified after the first run were to properly size images, serve images in next-gen formats, and efficiently encode images.  Prior to run 2 all images were sized using a photo editing software for the width of the image element;  the images were sized with a width of 200px.
 
 
 # Responsively
 https://responsively.app/
 
-
-Reduced largest contentful paint by X% from X seconds to X seconds by running web performance test to identify opportunities to speed up the application.
-
-Refactored for best practices by validating HTML and CSS using W3C Markup Validation Service.
-
-Optimized design for 8 screen sizes (desktop and mobile) using Responsively app, flexbox, and media queries.
+Resposively was very useful in seeing how a website would appear in 7 commonly used screen sizes (desktop and mobile).  After visualization of the webpage using Responsively, @media was used to optimize the presentation for readability.
