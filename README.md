@@ -18,6 +18,8 @@ Sections, like articles should have a heading that identifies the section.  The 
 
 On the third pass through the validator no error messages were returned.
 
+No errors were found when using the CSS validator.
+
 # Google PageSpeed Insights
 https://developers.google.com/speed/pagespeed/insights/
 
